@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","21197","@Web End to End Test Case ZARA COAT 3","Safari","2026-07-27","passed","2026-07-27","","PageObjects.spec.js","",""
+"","12558","@Web End to End Test Case ADIDAS ORIGINAL","Safari","2026-07-27","passed","2026-07-27","","PageObjects.spec.js","",""
+"","9862","@Web First test case","Safari","2026-07-27","passed","2026-07-27","","NormalLocators\Clientapp.spec.js","",""
+"","14768","@Web Calendar Validations","Safari","2026-07-27","passed","2026-07-27","","NormalLocators\Calendar.spec.js","",""

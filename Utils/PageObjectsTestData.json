@@ -1,0 +1,25 @@
+[
+    { 
+    "email" : "sivasreenath890@gmail.com",
+    "password" : "AEV!Ga!By53q.hm",
+    "productName" : "ZARA COAT 3",
+    "couponCode" : "rahulshettyacademy",
+    "country" : "Cuba",
+    "cardNumber" : "4542 9978 7895 3214",
+    "name" : "Sivasreenath",
+    "month" : "03",
+    "cvv" : "123",
+    "year" : "31"
+},
+{ 
+    "email" : "sivasreenath890@gmail.com",
+    "password" : "AEV!Ga!By53q.hm",
+    "productName" : "ADIDAS ORIGINAL",
+    "couponCode" : "rahulshettyacademy",
+    "country" : "India",
+    "cardNumber" : "4542 9978 7895 3214",
+    "name" : "Sivasreenath",
+    "month" : "03",
+    "cvv" : "123",
+    "year" : "31"
+}]
