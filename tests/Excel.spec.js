@@ -1,5 +1,5 @@
 const {test, expect} = require("@playwright/test");
-const excelJS = require("exceljs");
+const excelJS = require("../ExcelJSUtil/node_modules/exceljs");
 async function writeExcelFile(searchText, replaceText, change, filePath) {
     const workbook = new excelJS.Workbook();
     await workbook.xlsx.readFile(filePath) //here for reading the excel file will take some time so we need to use await keyword
