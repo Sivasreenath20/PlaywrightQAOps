@@ -16,7 +16,7 @@ export default defineConfig({
   
   use: {
     browserName: 'chromium', //this time is for the browser to launch
-    headless: false, //this time is for the browser to be visible or not
+    headless: process.env.CI ? true : false, //this time is for the browser to be visible or not
     trace: "off", //this time is for the trace to be generated only when the test fails
     screenshot: "only-on-failure"
   },

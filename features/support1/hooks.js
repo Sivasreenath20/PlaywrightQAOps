@@ -7,7 +7,7 @@ BeforeAll(async ()=>{//BeforeAll hook will run before executing all scenarios
 })
 
 Before (async function(){ //Before hook will run before each scenario
-    const browser = await playwright.chromium.launch({headless:false});
+    const browser = await playwright.chromium.launch({headless: process.env.CI ? true : false});
     const context = await browser.newContext();
     this.page = await context.newPage();
     this.poManager = await new POManager(this.page);
