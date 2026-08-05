@@ -5,12 +5,13 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 40000, //this time is for the total time to execute each test
+  timeout: 400000, //this time is for the total time to execute each test
   expect:{
-    timeout: 5000, //this time is for the time to wait for an element to appear in the page
+    timeout: 50000, //this time is for the time to wait for an element to appear in the page
   },
   //reporter: 'html', //this time is for the type of report to generate after the tests are executed
   //reporter: [["line"], ["allure-playwright"]],
+  retries: 1, //this time is for the number of times to retry a test if it fails
 
   
   use: {

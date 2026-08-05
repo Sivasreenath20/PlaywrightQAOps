@@ -34,6 +34,5 @@ test ("Placing order", async ({browser}) =>
         }
     }
     const orderIDDetails = await page.locator(".col-text").textContent();
-    await page.pause(); 
     expect(response.orderID.includes(orderIDDetails)).toBeTruthy();
 });

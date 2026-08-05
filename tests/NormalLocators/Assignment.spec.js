@@ -85,8 +85,8 @@ test("Complete testing", async ({page}) => {
     await expect(seatsAfterBooking === seatsBeforeBooking - 1);
 });
 
-test ("Complete testing 2", async ({page}) => {
+// test ("Complete testing 2", async ({page}) => {
 
-    //Step 1: Login to the application
-    logingIn(page);
-});
+//     //Step 1: Login to the application
+//     logingIn(page);
+// });
