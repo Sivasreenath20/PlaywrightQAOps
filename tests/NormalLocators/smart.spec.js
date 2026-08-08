@@ -4,7 +4,7 @@ test("Playwright Special Locators", async ({page})=>{
     await page.getByLabel("Check me out if you Love IceCreams!").check();
     await page.getByLabel("Employed").click();
     await page.getByLabel("Gender").selectOption("Male");
-    await page.getByPlaceholder("Password").fill("Sodium-Magniseum");
+    await page.getByPlaceholder("Password").fill("Sodium");
     await page.getByRole("button", {name:"Submit"}).click();
     await page.getByText("Success! The Form has been submitted successfully!.").isVisible();
     await page.getByRole("link", {name: 'Shop'}).click();//This will click on the "Shop" link in the header
