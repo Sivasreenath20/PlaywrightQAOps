@@ -1,3 +1,5 @@
+const { time } = require("node:console");
+
 class DashboardPage{
 
     constructor(page)
@@ -26,7 +28,7 @@ class DashboardPage{
     async navigateToCart()
     {
         await this.cart.click(); //This will click on the cart button in the header
-        await this.page.locator("div li").last().waitFor();
+        await this.page.locator("div li").last().waitFor(timeout = 5000); //This will wait for the last element in the cart to be visible
     }
 }
 
