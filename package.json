@@ -8,7 +8,8 @@
     "Webtests": "npx playwright test --grep @Web --config custom.config.js --project Safari --reporter=line,allure-playwright",
     "generate-report": "allure generate allure-results --clean -o allure-report",
     "open-report": "allure open allure-report",
-    "cucumber-test": "npx cucumber-js features/errorvalidation.feature --parallel 2 --exit --retry 1 --format html:errorvalidation.html"
+    "cucumber-test": "npx cucumber-js features/errorvalidation.feature --parallel 2 --exit --retry 1 --format html:errorvalidation.html",
+    "mcp": "npx @playwright/mcp@latest"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@azure/identity": "^4.13.1",
     "@azure/playwright": "^1.1.6",
     "@cucumber/cucumber": "^13.2.0",
+    "@playwright/mcp": "^0.0.79",
     "@playwright/test": "^1.62.0",
     "@types/node": "^25.6.0",
     "allure-commandline": "^2.43.0",
@@ -25,5 +27,16 @@
   },
   "dependencies": {
     "exceljs": "^3.10.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivasreenath20/PlaywrightQAOps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sivasreenath20/PlaywrightQAOps/issues"
+  },
+  "homepage": "https://github.com/Sivasreenath20/PlaywrightQAOps#readme"
 }
